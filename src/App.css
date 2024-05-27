@@ -1,5 +1,6 @@
-:root {
+html {
   background-color: rgb(26, 25, 29);
+  scroll-behavior: smooth;
 }
 
 .App {
