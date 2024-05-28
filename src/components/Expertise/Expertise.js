@@ -1,25 +1,18 @@
-import React from 'react';
-import './Expertise.css';
+import React from "react";
+import "./Expertise.css";
 
-const Expertise = () => {
+const Expertise = ({ icon, title, description, highlight }) => {
   return (
-    <section id="expertise" className="expertise">
-      <h2>My Expertise</h2>
-      <div className="expertise-items">
-        <div className="expertise-item">
-          <h3>Software Development</h3>
-          <p>Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.</p>
+    <div className="expertise-container">
+      <div className="content">
+        <div className="expertise-heading">
+          <img className="image" src={icon} alt="Expertise Icon" />
+          <h3 className="title"> {title} <br></br> <span className="highlight">{highlight}</span>
+          </h3>
         </div>
-        <div className="expertise-item">
-          <h3>Frontend Dev</h3>
-          <p>Passionate about UI/UX. Over 5 years of development experience in HTML, CSS, JS, React and NextJS frameworks.</p>
-        </div>
-        <div className="expertise-item">
-          <h3>Flutter Dev</h3>
-          <p>Skilled in developing hybrid mobile apps and cross-platform solutions using the Flutter framework.</p>
-        </div>
+        <p className="description">{description}</p>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -1,9 +1,9 @@
 import Header from './components/Header/Header.js';
-import Expertise from './components/Expertise/Expertise.js';
 import Work from './components/Work/Work.js';
 import Experience from './components/Experience.js';
 import Contact from './components/Contact/Contact.js';
 import Home from './components/Home/Home.js';
+import MyExpertise from './components/Expertise/MyExpertise.js';
 import './App.css';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
-      <Expertise />
+      <MyExpertise />
       <Work />
       <Experience />
       <Contact />

@@ -1,3 +1,46 @@
-.expertise {
-    height: 80vh;
-}
+.expertise-container {
+    border: 2px solid #fff;
+    padding: 30px;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .expertise-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+  }
+  
+  .image{
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    margin: 6px;
+  }
+  
+  .title {
+    margin: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .highlight {
+    color: #61dafb;
+  }
+  
+  .description {
+    line-height: 1.6;
+    padding: 15px;
+    text-align: start;
+    font-size: 1.2rem;
+    color: #e6e6e6;
+  }
