@@ -1,0 +1,99 @@
+.exp {
+    border-radius: 10px;
+    width: 750px;
+    color: #fff;
+  }
+  
+  .mainContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #430D79;
+    /* height: 50%; */
+    border-radius: 5px;
+  }
+  
+  .headline {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* .title {
+    font-size: 0.1rem;
+    margin-bottom: 0;
+  } */
+  
+  .date {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .headline CiCircleMinus,
+  .headline CiCirclePlus {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .hiddenContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #241D41;
+    transition: display 0.5s;
+  }
+  
+  .description-area {
+    flex: 1;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .addressAndWebsite {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .addressAndWebsite span,
+  .addressAndWebsite a {
+    color: #8ca7c4;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  .description {
+    align-content: left;
+  }
+
+  .skills-buttons {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+  
+  .skills-buttons button {
+    background-color: #004582;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+  }
+  
+  .logo-area img {
+    width: 100px;
+    height: auto;
+    padding: 15px
+  }

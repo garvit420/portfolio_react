@@ -1,6 +1,6 @@
 import Header from './components/Header/Header.js';
 import Work from './components/Work/Work.js';
-import Experience from './components/Experience.js';
+import Experience from './components/Experience/ProfessionalExperience.js';
 import Contact from './components/Contact/Contact.js';
 import Home from './components/Home/Home.js';
 import MyExpertise from './components/Expertise/MyExpertise.js';
