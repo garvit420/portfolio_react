@@ -1,25 +1,29 @@
 import React from 'react';
-import './Work.css';
-import WorkTile from '../../hooks/WorkTile';
+import './Work.css'; 
+import phone from '../../assets/phone.webm';
 
 const Work = () => {
   return (
-    <section id="work" className="work">
+    <section className='Work'>
       <div className="My-work">
-        <h2>My Work</h2>
-        <img src="tryotel-app.png" alt="Tryotel App" />
-        <h3>Tryotel App</h3>
-        <p>Deployed scalable travel, event and telemedicine web and hybrid mobile apps using React SPA and PWA.
-          Collaborated in 140+ projects with 50+ clients all around the world. I am also interested in data analytics and visualization..</p>
-      </div>
-      <div className='work-items'>
-        <div className='filter-by'>
-          Filter By
+        <div className="work-text">
+          <h1>My Work</h1>
+          <p>
+            Deployed scalable travel, event and telemedicine web and hybrid mobile apps using React SPA and PWA.
+            Collaborated in 140+ projects with 50+ clients all around the world. I am also interested in data analytics and visualization.
+          </p>
         </div>
-        <WorkTile 
-          header={'AI Lab Granada'}
-          subHeader={'Web Development'}
-        />
+        <div className="work-media">
+          <video className="project-video" autoPlay loop muted>
+            <source src={phone} type="video/webm" />
+            Your browser does not support the video tag.
+          </video>
+          <div className="featured-project">
+            <h2>Featured Project</h2>
+            <h3>Tryotel App</h3>
+            <button>View Project</button>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -1,3 +1,65 @@
-.work {
+.Work {
+    width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.My-work {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 60vh;
+    width: 60%;
+    color: white;
+  }
+  
+  .work-text {
+    max-width: 50%;
+  }
+  
+  .work-text h1 {
+    font-size: 3rem;
+  }
+  
+  .work-text p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  .featured-project {
+    margin-top: 40px;
+  }
+  
+  .featured-project h2 {
+    font-size: 1.5rem;
+  }
+  
+  .featured-project h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .featured-project button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .work-media {
+    max-width: 40%;
+  }
+  
+  .project-video {
+    /* position: absolute; */
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
