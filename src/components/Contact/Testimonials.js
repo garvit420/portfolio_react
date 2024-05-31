@@ -32,13 +32,13 @@ const testimonialsData = [
 const Testimonials = () => {
   return (
     <div className={styles.testimonials}>
-      <div className={styles.left}>
+      {/* <div className={styles.left}>
         <Testimonial testimonial={testimonialsData[0]} />
       </div>
       <div className={styles.right}>
         <Testimonial testimonial={testimonialsData[1]} />
         <Testimonial testimonial={testimonialsData[2]} />
-      </div>
+      </div> */}
     </div>
   );
 };

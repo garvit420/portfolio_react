@@ -8,12 +8,12 @@ const Work = () => {
       <div className="My-work">
         <div className="work-text">
           <h1>My Work</h1>
-          <p>
+          {/* <p>
             Deployed scalable travel, event and telemedicine web and hybrid mobile apps using React SPA and PWA.
             Collaborated in 140+ projects with 50+ clients all around the world. I am also interested in data analytics and visualization.
-          </p>
+          </p> */}
         </div>
-        <div className="work-media">
+        {/* <div className="work-media">
           <video className="project-video" autoPlay loop muted>
             <source src={phone} type="video/webm" />
             Your browser does not support the video tag.
@@ -23,7 +23,7 @@ const Work = () => {
             <h3>Tryotel App</h3>
             <button>View Project</button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

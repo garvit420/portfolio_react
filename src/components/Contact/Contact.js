@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div id='contact' className={styles.contact}>
       <ContactInfo />
-      <Testimonials />
+      <Testimonials />  
     </div>
   );
 };
