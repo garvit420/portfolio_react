@@ -13,7 +13,7 @@ const Experience = ({
   skills,
   logo,
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const hiddenContentRef = useRef(null);
   const mainContentRef = useRef(null);
 
