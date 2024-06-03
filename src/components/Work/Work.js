@@ -8,10 +8,9 @@ const Work = () => {
       <div className="My-work">
         <div className="work-text">
           <h1>My Work</h1>
-          {/* <p>
-            Deployed scalable travel, event and telemedicine web and hybrid mobile apps using React SPA and PWA.
-            Collaborated in 140+ projects with 50+ clients all around the world. I am also interested in data analytics and visualization.
-          </p> */}
+          <p>
+            I have worked on a variety of projects from frontend to backend. Here are some of my works.
+          </p>
         </div>
         {/* <div className="work-media">
           <video className="project-video" autoPlay loop muted>
